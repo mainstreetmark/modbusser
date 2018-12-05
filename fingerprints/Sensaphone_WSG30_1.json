@@ -1,0 +1,23 @@
+{
+	"identity":{
+		"vendor":"Sensaphone",
+		"make":"WSG30"
+	},
+	"tests":{
+		"valid":[{"address":31551,"gt":0}],
+		"invalid":[]
+	},
+	"map":[
+		{
+			"address":321539,
+			"length":20,
+			"tags":[
+				{
+					"address":31551,
+					"type":"float",
+					"name":"Channel 1"
+				}
+			]
+		}
+	]
+}

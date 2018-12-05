@@ -1,0 +1,47 @@
+{
+	"identity": {
+		"vendor":"Basler",
+		"make":"GPS100",
+		"model":"1"
+	},
+	"tests": {
+		"mac":"45:33:22",
+		"valid": [
+			{
+				"address":49772,
+				"type":"float",
+				"between":[45,70]
+			}
+		],
+		"invalid": [
+			{
+				"address":49772,
+				"type":"float",
+				"greater":100
+			}
+		]
+	},
+	"map":[
+		{
+			"address": 49726,
+			"length": 50,
+			"tags": [
+				{
+					"address":49746,
+					"type":"float",
+					"name":"Real Power",
+					"symbol":"KW",
+					"unit":"kW"
+				},
+				{
+					"address": 49750,
+					"type": "float",
+					"name": "Apparent Power",
+					"symbol": "KVA",
+					"unit": "kVA"
+				}
+			]
+		
+		}
+	]
+}	
